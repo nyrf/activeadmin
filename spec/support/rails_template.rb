@@ -87,9 +87,7 @@ if ENV["BUNDLE_GEMFILE"] == File.expand_path("../../gemfiles/rails_60_webpacker.
   create_file 'app/javascript/packs/active_admin/print.scss'
   create_file 'app/javascript/packs/active_admin.js'
   append_file 'app/javascript/packs/active_admin.js', "import './active_admin.css';"
-  gsub_file 'config/webpacker.yml', /^.*extract_css.*$/, <<-YML
-  extract_css: true
-  YML
+  gsub_file 'config/webpacker.yml', /^.*extract_css.*$/, "\n  extract_css: true"
 end
 
 if ENV['RAILS_ENV'] != 'test'
