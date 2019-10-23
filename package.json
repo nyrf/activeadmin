@@ -38,7 +38,7 @@
   "scripts": {
     "lint": "gherkin-lint features",
     "build": "rollup --config rollup.config.js",
-    "prepublishOnly": "rm -rf src && cp -R app/javascript/active_admin src && cp -R app/assets/stylesheets/active_admin src/scss"
+    "prepublishOnly": "rm -rf src && cp -R app/javascript/active_admin src && cp -R app/assets/stylesheets/active_admin src/scss && cp -R app/assets/images/active_admin src/images"
   },
   "dependencies": {
     "jquery": "^3.4.1",
