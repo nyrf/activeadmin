@@ -1,6 +1,6 @@
 {
-  "version": "2.1.0",
   "name": "@activeadmin/activeadmin",
+  "version": "2.4.0-alpha-3",
   "description": "The administration framework for Ruby on Rails.",
   "main": "app/assets/javascripts/active_admin/base.js",
   "files": [
