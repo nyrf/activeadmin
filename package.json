@@ -5,8 +5,7 @@
   "main": "app/assets/javascripts/active_admin/base.js",
   "files": [
     "app/assets/javascripts/active_admin/*.js",
-    "src/**/*.js",
-    "src/**/*.scss"
+    "src/**/*"
   ],
   "repository": {
     "type": "git",
