@@ -96,7 +96,7 @@ environment.plugins.prepend('Provide',
 )
   ENV
   inject_into_file 'config/webpack/environment.js', jquery_env, after: "const { environment } = require('@rails/webpacker')"
-  run "yarn add file:../../.."
+  run "yarn add @activeadmin/activeadmin"
 end
 
 if ENV['RAILS_ENV'] != 'test'
